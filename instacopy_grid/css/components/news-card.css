@@ -64,7 +64,10 @@
 }
 .news-card__caption, .news-card__comments {
     color: #262626;
-    padding: 0 16px ;
+    padding: 4px 16px ;
+}
+.news-card__comments p {
+    padding: 4px 0;
 }
 .news-card__caption span, .news-card__comments span {
     font-weight: 800;
@@ -95,9 +98,7 @@
     outline: none;
     resize: none;
 }
-.news-card__comment-area textarea:focus {
-    height: 100%;
-}
+
 .news-card__comment-area button {
     border: none;
     background: none;
