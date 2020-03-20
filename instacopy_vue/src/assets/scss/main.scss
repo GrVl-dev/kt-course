@@ -1,0 +1,23 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI Light';
+    font-size: 14px;
+}
+    
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('./assets/fonts/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+
+@import '@/assets/scss/components/header.scss';
