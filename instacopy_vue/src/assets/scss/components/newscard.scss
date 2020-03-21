@@ -1,0 +1,126 @@
+.news-card {
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    background: white;
+    max-width: 600px;
+
+    &__header {
+        display: flex;
+        padding: 16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__profile-foto {
+        border: 1px solid;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+    }
+
+    &__profile-info {
+        margin-left: 16px;
+    }
+
+    &__profile-name {
+        font-weight: bold;
+    }
+
+    &__place {
+        font-size: 12px;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__foto {
+        width: 100%;
+        max-width: 600px;
+        max-height: 600px;
+    }
+
+    &__icons {
+        margin: 4px 0 0;
+        padding: 0 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icons-left{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 8px 8px 0;
+        width: 120px;
+    }
+
+    &__icons-right {
+        padding: 8px 0 8px;
+    }
+
+    &__views {
+        color: #262626;
+        font-weight: 800;
+        padding: 0 16px;
+        margin: 0 0 8px;
+    }
+
+    &__caption, &__comments {
+        color: #262626;
+        padding: 4px 16px ;
+    }
+
+    &__comments p {
+        padding: 4px 0;
+    }
+
+    &__caption span, &__comments span {
+        font-weight: 800;
+    }
+
+    &__date {
+        color: #262626;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 8px 16px ;
+        margin: 0 0 4px;
+    }
+
+    &__add-comment {
+        padding: 8px 16px ;
+        margin: 4px 0 0;
+        height: 56px;
+    }
+    
+    &__comment-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__comment-area textarea {
+        border: none;
+        height: 24px;
+        width: 100%;
+        outline: none;
+        resize: none;
+    }
+
+    &__comment-area button {
+        border: none;
+        background: none;
+        color: #7897F0;
+        font-weight: 800;
+        cursor: pointer;
+        outline: none;
+    }
+}

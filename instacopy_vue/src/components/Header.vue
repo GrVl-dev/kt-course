@@ -1,5 +1,5 @@
 <template>
-    <div class="header">
+    <header class="header">
         <div class="header__content">
             <router-link to="/" class="header__logo">
                 <img src="@/assets/img/logocopy.png" alt="">
@@ -34,13 +34,11 @@
             </div>
             <div class="header__gamb"></div>
         </div>
-    </div>
+    </header>
 </template>
 <script>
+
 export default {
     name: "Header"
 };
 </script>
-<style lang="scss" scoped>
-
-</style>

@@ -1,0 +1,100 @@
+.aside {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    
+    &__wrapper {
+        grid-column: 4 / 5;
+        grid-row: 2 / 4;
+        display: flex;
+        width: 293px;
+    }
+
+    &__profile-card {
+        display: flex;
+        align-items: center;
+    }
+
+    &__profile-name p:first-child {
+        color: #262626;
+        font-weight: 800;
+    }
+
+    &__profile-name p:last-child {
+        color: #A6A6A6;
+        font-size: 12px;
+    }
+
+    &__profile-foto {
+        width: 50px;
+        height: 50px;
+        border: 1px solid blue;
+        border-radius: 50%;
+        margin-right: 14px;
+    }
+
+    &__recommend {
+        width: 291px;
+        border: 1px solid #DBDBDB;
+        border-radius: 2px;
+        margin:  12px 0;
+        background: white;
+    }
+
+    &__title {
+        display: flex;
+        margin: 12px 0 0;
+        padding: 4px 16px;
+        justify-content: space-between;
+    }
+
+    &__title p {
+        color: #999999;
+    }
+
+    &__title a {
+        font-size: 12px;
+    }
+
+    &__card {
+        padding: 8px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__card-user {
+        display: flex;
+    }
+
+    &__card-foto {
+        width: 32px;
+        height: 32px;
+        border: 1px solid blue;
+        border-radius: 50%;
+        margin-right: 14px;
+    }
+
+    &__card-data {
+        color: #999999;
+        font-size: 12px;
+    }
+
+    &__card-subscribe {
+        color: #8FC4F6;
+        font-size: 12px;
+    }
+
+    &__footer {
+        color: #A6A6A6;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1000px) {
+    aside,
+    .aside__wrapper {
+        display: none;
+        position: static;
+    }
+}
