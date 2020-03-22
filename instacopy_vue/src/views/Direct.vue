@@ -1,9 +1,8 @@
 <template>
   <div class="direct">
-    <Header/>
+    <Header v-bind:navMenu="navMenu"/>
     <DirectBox/>
   </div>
-
 </template>
 <script>
 import Header from "@/components/Header";
@@ -17,6 +16,16 @@ export default {
   components: {
     Header,
     DirectBox
+  },
+  data() {
+    return {
+      navMenu: {
+        home: false,
+        homeActive: true,
+        direct: true,
+        directActive: false
+      }
+    }
   }
 }
 </script>
