@@ -1,13 +1,9 @@
 .aside {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    
+    max-width: 312px;
+
     &__wrapper {
         grid-column: 4 / 5;
         grid-row: 2 / 4;
-        display: flex;
-        width: 293px;
     }
 
     &__profile-card {
@@ -34,7 +30,6 @@
     }
 
     &__recommend {
-        width: 291px;
         border: 1px solid #DBDBDB;
         border-radius: 2px;
         margin:  12px 0;
