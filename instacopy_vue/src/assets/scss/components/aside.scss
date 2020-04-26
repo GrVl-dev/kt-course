@@ -1,9 +1,11 @@
 .aside {
-    max-width: 312px;
-
+    width: 312px;
+    position: fixed;
+    
     &__wrapper {
         grid-column: 4 / 5;
         grid-row: 2 / 4;
+
     }
 
     &__profile-card {

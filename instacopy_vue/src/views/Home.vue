@@ -15,8 +15,7 @@
     name: 'Home',
     data() {
       return {
-
-        navMenu: {
+          navMenu: {
           home: true,
           homeActive: false,
           direct: false,
